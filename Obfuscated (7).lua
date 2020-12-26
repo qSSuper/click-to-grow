@@ -115,7 +115,7 @@ Title.TextSize = 24.000
 
 -- Scripts:
 
-local function ROCMYC_fake_script() -- Cstart.LocalScript 
+local function ETCSP_fake_script() -- Cstart.LocalScript 
 	local script = Instance.new('LocalScript', Cstart)
 
 	oof = false
@@ -131,8 +131,8 @@ local function ROCMYC_fake_script() -- Cstart.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ROCMYC_fake_script)()
-local function WPPKGM_fake_script() -- Cstop.LocalScript 
+coroutine.wrap(ETCSP_fake_script)()
+local function UMGKTZ_fake_script() -- Cstop.LocalScript 
 	local script = Instance.new('LocalScript', Cstop)
 
 	oof = false
@@ -148,8 +148,8 @@ local function WPPKGM_fake_script() -- Cstop.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WPPKGM_fake_script)()
-local function NLCTEM_fake_script() -- Rstart.LocalScript 
+coroutine.wrap(UMGKTZ_fake_script)()
+local function MUDU_fake_script() -- Rstart.LocalScript 
 	local script = Instance.new('LocalScript', Rstart)
 
 	oof = false
@@ -164,8 +164,8 @@ local function NLCTEM_fake_script() -- Rstart.LocalScript
 		end
 	end)
 end
-coroutine.wrap(NLCTEM_fake_script)()
-local function QFJWKE_fake_script() -- Rstop.LocalScript 
+coroutine.wrap(MUDU_fake_script)()
+local function LEKT_fake_script() -- Rstop.LocalScript 
 	local script = Instance.new('LocalScript', Rstop)
 
 	oof = false
@@ -180,8 +180,8 @@ local function QFJWKE_fake_script() -- Rstop.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QFJWKE_fake_script)()
-local function UWSECV_fake_script() -- Autof.LocalScript 
+coroutine.wrap(LEKT_fake_script)()
+local function FFPNG_fake_script() -- Autof.LocalScript 
 	local script = Instance.new('LocalScript', Autof)
 
 	oof = false
@@ -205,8 +205,8 @@ local function UWSECV_fake_script() -- Autof.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UWSECV_fake_script)()
-local function VMYIMJ_fake_script() -- Frame.drag 
+coroutine.wrap(FFPNG_fake_script)()
+local function OVVZXIL_fake_script() -- Frame.drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -247,4 +247,4 @@ local function VMYIMJ_fake_script() -- Frame.drag
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(VMYIMJ_fake_script)()
+coroutine.wrap(OVVZXIL_fake_script)()
