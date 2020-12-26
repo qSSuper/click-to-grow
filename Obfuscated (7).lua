@@ -17,6 +17,7 @@ local Title = Instance.new("TextLabel")
 --Properties:
 
 ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ResetOnSpawn = false
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
@@ -114,7 +115,7 @@ Title.TextSize = 24.000
 
 -- Scripts:
 
-local function VLGCIJ_fake_script() -- Cstart.LocalScript 
+local function ROCMYC_fake_script() -- Cstart.LocalScript 
 	local script = Instance.new('LocalScript', Cstart)
 
 	oof = false
@@ -130,8 +131,8 @@ local function VLGCIJ_fake_script() -- Cstart.LocalScript
 		end
 	end)
 end
-coroutine.wrap(VLGCIJ_fake_script)()
-local function IMYSTH_fake_script() -- Cstop.LocalScript 
+coroutine.wrap(ROCMYC_fake_script)()
+local function WPPKGM_fake_script() -- Cstop.LocalScript 
 	local script = Instance.new('LocalScript', Cstop)
 
 	oof = false
@@ -147,8 +148,8 @@ local function IMYSTH_fake_script() -- Cstop.LocalScript
 		end
 	end)
 end
-coroutine.wrap(IMYSTH_fake_script)()
-local function SQWA_fake_script() -- Rstart.LocalScript 
+coroutine.wrap(WPPKGM_fake_script)()
+local function NLCTEM_fake_script() -- Rstart.LocalScript 
 	local script = Instance.new('LocalScript', Rstart)
 
 	oof = false
@@ -163,8 +164,8 @@ local function SQWA_fake_script() -- Rstart.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SQWA_fake_script)()
-local function WYEKFO_fake_script() -- Rstop.LocalScript 
+coroutine.wrap(NLCTEM_fake_script)()
+local function QFJWKE_fake_script() -- Rstop.LocalScript 
 	local script = Instance.new('LocalScript', Rstop)
 
 	oof = false
@@ -179,8 +180,8 @@ local function WYEKFO_fake_script() -- Rstop.LocalScript
 		end
 	end)
 end
-coroutine.wrap(WYEKFO_fake_script)()
-local function FQTBFDS_fake_script() -- Autof.LocalScript 
+coroutine.wrap(QFJWKE_fake_script)()
+local function UWSECV_fake_script() -- Autof.LocalScript 
 	local script = Instance.new('LocalScript', Autof)
 
 	oof = false
@@ -204,8 +205,8 @@ local function FQTBFDS_fake_script() -- Autof.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FQTBFDS_fake_script)()
-local function HUFCY_fake_script() -- Frame.drag 
+coroutine.wrap(UWSECV_fake_script)()
+local function VMYIMJ_fake_script() -- Frame.drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -246,4 +247,4 @@ local function HUFCY_fake_script() -- Frame.drag
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(HUFCY_fake_script)()
+coroutine.wrap(VMYIMJ_fake_script)()
