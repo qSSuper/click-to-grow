@@ -115,7 +115,7 @@ Title.TextSize = 24.000
 
 -- Scripts:
 
-local function ETCSP_fake_script() -- Cstart.LocalScript 
+local function DZZC_fake_script() -- Cstart.LocalScript 
 	local script = Instance.new('LocalScript', Cstart)
 
 	oof = false
@@ -131,8 +131,8 @@ local function ETCSP_fake_script() -- Cstart.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ETCSP_fake_script)()
-local function UMGKTZ_fake_script() -- Cstop.LocalScript 
+coroutine.wrap(DZZC_fake_script)()
+local function XIUOCOP_fake_script() -- Cstop.LocalScript 
 	local script = Instance.new('LocalScript', Cstop)
 
 	oof = false
@@ -148,8 +148,8 @@ local function UMGKTZ_fake_script() -- Cstop.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UMGKTZ_fake_script)()
-local function MUDU_fake_script() -- Rstart.LocalScript 
+coroutine.wrap(XIUOCOP_fake_script)()
+local function QLJAR_fake_script() -- Rstart.LocalScript 
 	local script = Instance.new('LocalScript', Rstart)
 
 	oof = false
@@ -157,15 +157,16 @@ local function MUDU_fake_script() -- Rstart.LocalScript
 	button = script.Parent
 	
 	button.MouseButton1Down:Connect(function()
-		while true do
+		_G.On = true
+		while _G.On == true do
 			wait(1.6)
 			local Event = game:GetService("Workspace").Events.Prestige
 			Event:FireServer()
 		end
 	end)
 end
-coroutine.wrap(MUDU_fake_script)()
-local function LEKT_fake_script() -- Rstop.LocalScript 
+coroutine.wrap(QLJAR_fake_script)()
+local function ALIQGB_fake_script() -- Rstop.LocalScript 
 	local script = Instance.new('LocalScript', Rstop)
 
 	oof = false
@@ -173,15 +174,16 @@ local function LEKT_fake_script() -- Rstop.LocalScript
 	button = script.Parent
 	
 	button.MouseButton1Down:Connect(function()
-		while false do
+		_G.On = oof
+		while _G.On == true do
 			wait(1)
 			local Event = game:GetService("Workspace").Events.Prestige
 			Event:FireServer()
 		end
 	end)
 end
-coroutine.wrap(LEKT_fake_script)()
-local function FFPNG_fake_script() -- Autof.LocalScript 
+coroutine.wrap(ALIQGB_fake_script)()
+local function SJQHJVX_fake_script() -- Autof.LocalScript 
 	local script = Instance.new('LocalScript', Autof)
 
 	oof = false
@@ -205,8 +207,8 @@ local function FFPNG_fake_script() -- Autof.LocalScript
 		end
 	end)
 end
-coroutine.wrap(FFPNG_fake_script)()
-local function OVVZXIL_fake_script() -- Frame.drag 
+coroutine.wrap(SJQHJVX_fake_script)()
+local function PPTZT_fake_script() -- Frame.drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -247,4 +249,4 @@ local function OVVZXIL_fake_script() -- Frame.drag
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(OVVZXIL_fake_script)()
+coroutine.wrap(PPTZT_fake_script)()
