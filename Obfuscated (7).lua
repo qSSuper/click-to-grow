@@ -115,7 +115,7 @@ Title.TextSize = 24.000
 
 -- Scripts:
 
-local function DZZC_fake_script() -- Cstart.LocalScript 
+local function LEFZJ_fake_script() -- Cstart.LocalScript 
 	local script = Instance.new('LocalScript', Cstart)
 
 	oof = false
@@ -131,8 +131,8 @@ local function DZZC_fake_script() -- Cstart.LocalScript
 		end
 	end)
 end
-coroutine.wrap(DZZC_fake_script)()
-local function XIUOCOP_fake_script() -- Cstop.LocalScript 
+coroutine.wrap(LEFZJ_fake_script)()
+local function XATNS_fake_script() -- Cstop.LocalScript 
 	local script = Instance.new('LocalScript', Cstop)
 
 	oof = false
@@ -148,8 +148,8 @@ local function XIUOCOP_fake_script() -- Cstop.LocalScript
 		end
 	end)
 end
-coroutine.wrap(XIUOCOP_fake_script)()
-local function QLJAR_fake_script() -- Rstart.LocalScript 
+coroutine.wrap(XATNS_fake_script)()
+local function ZKLFGMQ_fake_script() -- Rstart.LocalScript 
 	local script = Instance.new('LocalScript', Rstart)
 
 	oof = false
@@ -165,8 +165,8 @@ local function QLJAR_fake_script() -- Rstart.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QLJAR_fake_script)()
-local function ALIQGB_fake_script() -- Rstop.LocalScript 
+coroutine.wrap(ZKLFGMQ_fake_script)()
+local function RUJS_fake_script() -- Rstop.LocalScript 
 	local script = Instance.new('LocalScript', Rstop)
 
 	oof = false
@@ -182,8 +182,8 @@ local function ALIQGB_fake_script() -- Rstop.LocalScript
 		end
 	end)
 end
-coroutine.wrap(ALIQGB_fake_script)()
-local function SJQHJVX_fake_script() -- Autof.LocalScript 
+coroutine.wrap(RUJS_fake_script)()
+local function MODKM_fake_script() -- Autof.LocalScript 
 	local script = Instance.new('LocalScript', Autof)
 
 	oof = false
@@ -197,8 +197,7 @@ local function SJQHJVX_fake_script() -- Autof.LocalScript
 				wait()
 				local Event = game:GetService("Workspace").Events.AddPoints
 				Event:FireServer()
-			end
-			wait()
+			end		
 			while true do
 				wait(10)
 				local Event = game:GetService("Workspace").Events.Prestige
@@ -207,8 +206,8 @@ local function SJQHJVX_fake_script() -- Autof.LocalScript
 		end
 	end)
 end
-coroutine.wrap(SJQHJVX_fake_script)()
-local function PPTZT_fake_script() -- Frame.drag 
+coroutine.wrap(MODKM_fake_script)()
+local function BFHX_fake_script() -- Frame.drag 
 	local script = Instance.new('LocalScript', Frame)
 
 	local UIS = game:GetService("UserInputService")
@@ -249,4 +248,4 @@ local function PPTZT_fake_script() -- Frame.drag
 	
 	dragify(script.Parent)
 end
-coroutine.wrap(PPTZT_fake_script)()
+coroutine.wrap(BFHX_fake_script)()
